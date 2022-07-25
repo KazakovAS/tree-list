@@ -1,0 +1,9 @@
+.tree-list__item-icon {
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,28 @@
+.tree-list__item {
+  position: relative;
+  padding-left: 35px;
+}
+
+.tree-list__item::before,
+.tree-list__item::after {
+  content: '';
+  position: absolute;
+}
+
+.tree-list__item::before {
+  height: 100%;
+  border-left: dotted 1px;
+  left: 0;
+  top: -13px;
+}
+
+.tree-list__item::after {
+  top: 7px;
+  left: 2px;
+  width: 30px;
+  border-top: dotted 1px;
+}
+
+.tree-list__item:last-child::before {
+  height: 20px;
+}

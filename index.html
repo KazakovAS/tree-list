@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <ul class="tree-list">
+    <li class="tree-list__item">
+      <button class="tree-list__button"></button>
+      <span class="tree-list__item-icon tree-list__item-icon_image_folder"></span>
+      Список
+
+      <ul class="tree-list__list">
+        <li class="tree-list__item">
+          <button class="tree-list__button"></button>
+          <span class="tree-list__item-icon tree-list__item-icon_image_folder"></span>
+          Folder 1
+
+          <ul class="tree-list__list">
+            <li class="tree-list__item">
+              <span class="tree-list__item-icon tree-list__item-icon_image_file"></span>
+              Item 1.1
+            </li>
+          </ul>
+        </li>
+        <li class="tree-list__item">
+          <button class="tree-list__button"></button>
+          <span class="tree-list__item-icon tree-list__item-icon_image_folder"></span>
+          Folder 2
+
+          <ul class="tree-list__list">
+            <li class="tree-list__item">
+              <button class="tree-list__button"></button>
+              <span class="tree-list__item-icon tree-list__item-icon_image_folder"></span>
+              Subfolder 2.1
+
+              <ul class="tree-list__list">
+                <li class="tree-list__item">
+                  <span class="tree-list__item-icon tree-list__item-icon_image_file"></span>
+                  File 2.1.1
+                </li>
+                <li class="tree-list__item">
+                  <span class="tree-list__item-icon tree-list__item-icon_image_file"></span>
+                  File 2.1.2
+                </li>
+              </ul>
+            </li>
+            <li class="tree-list__item">
+              <span class="tree-list__item-icon tree-list__item-icon_image_file"></span>
+              File 2.2
+            </li>
+          </ul>
+        </li>
+        <li class="tree-list__item">
+          <button class="tree-list__button"></button>
+          <span class="tree-list__item-icon tree-list__item-icon_image_folder"></span>
+          Folder 3
+
+          <ul class="tree-list__list">
+            <li class="tree-list__item">
+              <span class="tree-list__item-icon tree-list__item-icon_image_file"></span>
+              File 3.1
+            </li>
+          </ul>
+        </li>
+        <li class="tree-list__item">
+          <span class="tree-list__item-icon tree-list__item-icon_image_file"></span>
+          File 3
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <script src="./app.js"></script>
+</body>
+</html>
